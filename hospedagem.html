@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem</title>
+
+    <link rel="shortcut icon" href="img/airplane.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="css/styleHospedagem.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <i class="fas fa-plane" id="iconelogo"></i>
+        <a href="index.html"><h1 id="logo">myTravels.com</h1></a>
+        <a href="login.html" id="criar"><p>criar conta</p></a>
+        <a href="passagens.html" id="pass"><p>passagens</p></a>
+        <a href="hospedagem.html" id="hosp"><p>hospedagem</p></a>
+        <a href="ofertas.html" id="paco"><p>ofertas</p></a>
+        <a href="login.html"><button id="btn">Entrar</button></a>
+    </header>
+
+    <div id="corpo-pagina">
+        <div class="busca">
+            <h3>Hospedagens</h3>
+            <label for="destino" class="dstn">Destino</label>
+            <br>
+            <input type="text" id="destino" placeholder="Insira uma cidade">
+            <br>
+
+            <label for="datas" class="dts">Datas</label>
+            <br>
+            <input type="date" id="dataentrada" placeholder="Entrada">
+            <input type="date" id="datasaida" placeholder="Saída">
+            <br>
+
+            <div id="checkbox">
+                <label for="notdefined" class="txtt">
+                    <input type="checkbox" id="notdefined" checked="checked"/><p>Ainda não defini as datas</p>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <br>
+            <label for="quartos" class="qrt">Quartos</label>
+            <br>
+            <input type="text" id="quartos" placeholder="Insira quantos ocupantes por quarto">
+
+            <br>
+            <a href="#" id="botao"><button id="botao">Buscar</button></a>
+        </div>
+
+        <div class="filtros">
+            <h3>Filtros populares</h3>
+            <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Hospedagens com reserva flexível</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Somente pagamento com cartão</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Hotéis</div>
+              </label>
+
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Café da manhã incluído</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">★★★★☆</div>
+              </label>
+        </div>
+
+        <hr class="divisaofiltro">
+
+        <div class="filtros">
+            <h3>Estrelas</h3>
+            <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">★★★★★</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">★★★★☆</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">★★★☆☆</div>
+              </label>
+
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">★★☆☆☆</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">★☆☆☆☆</div>
+              </label>
+        </div>
+
+        <hr class="divisaofiltro">
+
+        <div class="filtros">
+            <h3>Ofertas</h3>
+            <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Todas as ofertas</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Descontos a partir de 20%</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Descontos a partir de 50%</div>
+              </label>
+        </div>
+
+        <hr class="divisaofiltro">
+
+        <div class="filtros">
+            <h3>Tipo de hospedagem</h3>
+            <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Todas as opções</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Hotéis</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Apartamentos</div>
+              </label>
+
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Hostels</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Pousadas</div>
+              </label>
+        </div>
+
+        <hr class="divisaofiltro">
+
+        <div class="filtros">
+            <h3>Serviços</h3>
+            <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Todos os Serviços</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Wi-Fi grátis nas áreas comuns</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Recepção 24h</div>
+              </label>
+
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Elevador</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Serviço de lavanderia com custo adicional</div>
+              </label>
+        </div>
+
+        <hr class="divisaofiltro">
+
+        <div class="filtros">
+            <h3>Refeições</h3>
+            <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Todos</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Café da manhã</div>
+              </label>
+            
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Buffet de café da manhã</div>
+              </label>
+
+              <label class="rad-label">
+                <input type="radio" class="rad-input" name="rad">
+                <div class="rad-design"></div>
+                <div class="rad-text">Café da manhã continental</div>
+              </label>
+        </div>
+
+        <div class="safety">
+            <i class="fas fa-sync fa-3x"></i>
+            <h1>Compre com tranquilidade. Se os planos mudarem, você poderá alterar sua viagem</h1>
+            <p>Dê preferência a hospedagens com reserva flexível, assim você poderá cancelar grátis caso seus planos mudem. Revise estas condições antes de efetuar o pagamento.</p>
+        </div>
+
+        <div class="ordenar">
+            <label for="ordem">Ordenar por:</label>
+            <select id="ordem">
+                <option>Mais escolhidos</option>
+                <option>Preço: Menos a maior</option>
+                <option>Preço: Maior a menor</option>
+                <option>Melhor pontuação</option>
+            </select>
+
+            <label for="ordem">Moeda:</label>
+            <select id="ordem">
+                <option>Real</option>
+                <option>Dólar</option>
+            </select>
+
+            <a href="#"><i class="fas fa-list"></i></a>
+        </div>
+
+        <div id="containerhotel">
+            <div class="hoteis">
+                <img src="imgHospedagem/dan inn.jpg">
+                <div class="conteudo">
+                    <h2>Dan Inn Planalto São Paulo</h2>
+                    <p>São Paulo. A 1,18 km do centro</p>
+                    <h3>7,5</h3>
+                    <span>★★★☆☆</span>
+
+                    <hr id="linhadiv">
+                    
+                    <p id="valor">R$ 143,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/radisson  blu.jpg">
+                <div class="conteudo">
+                    <h2>Radisson Blu São Paulo</h2>
+                    <p>São Paulo. A 6,44 km do centro</p>
+                    <h3>9,2</h3>
+                    <span>★★★★★</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 308,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/melia.jpg">
+                <div class="conteudo">
+                    <h2>Meliá Paulista</h2>
+                    <p>São Paulo. A 2,97 km do centro</p>
+                    <h3>8,4</h3>
+                    <span>★★★★★</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 367,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/riu palace.jpg">
+                <div class="conteudo">
+                    <h2>RIU Palace Costa Mujeres</h2>
+                    <p>Cancún. A 17,21 km do centro</p>
+                    <h3>8,8</h3>
+                    <span>★★★★★</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 2.068,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/emporio.jpeg">
+                <div class="conteudo">
+                    <h2>Empório Cancún</h2>
+                    <p>Cancún. A 10,27 km do centro</p>
+                    <h3>8,4</h3>
+                    <span>★★★★☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 753,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/RIU Caribe All Inclusive Resort.jpg">
+                <div class="conteudo">
+                    <h2>RIU Caribe All Inclusive Resort</h2>
+                    <p>Cancún. A 6,25 km do centro</p>
+                    <h3>8,3</h3>
+                    <span>★★★★☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 1.944,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/brisa hotelk.jpg">
+                <div class="conteudo">
+                    <h2>Hotel Brisa Suites</h2>
+                    <p>Maceió. A 2,57 km do centro</p>
+                    <h3>8,5</h3>
+                    <span>★★★★☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 231,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/hotel brisa praia.jpg">
+                <div class="conteudo">
+                    <h2>Hotel Brisa Praia</h2>
+                    <p>Maceió. A 2,15 km do centro</p>
+                    <h3>8,3</h3>
+                    <span>★★★★☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 195,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/reymar.jpg">
+                <div class="conteudo">
+                    <h2>Reymar Express</h2>
+                    <p>Maceió. A 5,46 km do centro</p>
+                    <h3>7,4</h3>
+                    <span>★★★☆☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 129,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/royalty.jpg">
+                <div class="conteudo">
+                    <h2>Royalty Barra Hotel</h2>
+                    <p>Rio de Janeiro. A 15,29 km do centro</p>
+                    <h3>7,1</h3>
+                    <span>★★★★☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 284,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/orla copacabana hotel.jpg">
+                <div class="conteudo">
+                    <h2>Orla Copacabana Hotel</h2>
+                    <p>Rio de Janeiro. A 9,23 km do centro</p>
+                    <h3>7,7</h3>
+                    <span>★★★★☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 201,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/prodigy santos drumont.jpg">
+                <div class="conteudo">
+                    <h2>Prodigy Santos Dumont</h2>
+                    <p>Rio de Janeiro. A 5,10 km do centro</p>
+                    <h3>8,3</h3>
+                    <span>★★★★☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 399,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/icon hotel.jpg">
+                <div class="conteudo">
+                    <h2>Icon Hotel</h2>
+                    <p>Santiago. A 10,46 km do centro</p>
+                    <h3>7,8</h3>
+                    <span>★★★★☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 515,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/hotel altiplanico.jpg">
+                <div class="conteudo">
+                    <h2>Hotel Altiplanico Bellas Artes</h2>
+                    <p>Santiago. A 2,73 km do centro</p>
+                    <h3>7,6</h3>
+                    <span>★★★★☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 773,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+
+            <div class="hoteis">
+                <img src="imgHospedagem/UGO Hotel.jpg">
+                <div class="conteudo">
+                    <h2>UGO Hotel</h2>
+                    <p>Santiago. A 6,75 km do centro</p>
+                    <h3>9,1</h3>
+                    <span>★★★★☆</span>
+
+                    <hr id="linhadiv">
+
+                    <p id="valor">R$ 394,00</p>
+                    <button>Escolher data</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="rodape">
+        <h3>Inscreva-se para receber ofertas exclusivas</h3>
+        <i class="fas fa-paper-plane" id="iconemail"></i>
+        <input type="text" id="emailinput" placeholder="Insira seu e-mail">
+        <button id="btnnoticia">Quero recebê-las!</button>
+        <p>Você receberá e-mails promocionais da myTravels. Para mais informações, consulte as políticas de privacidade.</p>
+    </div>
+    <hr id="linhadivfooter">
+    <footer>
+        © Copyright - MyTravels
+    </footer>
+</body>
+</html>

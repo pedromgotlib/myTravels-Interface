@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passagens</title>
+
+    <link rel="shortcut icon" href="img/airplane.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="css/stylePassagens.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <header>
+        <i class="fas fa-plane" id="iconelogo"></i>
+        <a href="index.html"><h1 id="logo">myTravels.com</h1></a>
+        <a href="passagens.html" id="pass"><p>passagens</p></a>
+        <a href="hospedagem.html" id="hosp"><p>hospedagem</p></a>
+        <a href="ofertas.html" id="paco"><p>ofertas</p></a>
+        <a href="login.html" id="criar"><p>criar conta</p></a>
+        <a href="login.html" id="btn"><button id="btn">Entrar</button></a>
+    </header>
+
+    <div id="container">
+        <div id="buscacidade">
+            <input type="text" id="ida" class="inputbusca" placeholder="Insira sua cidade de partida">
+            <input type="text" id="destino" class="inputbusca" placeholder="Insira seu destino">
+
+            <i class="fas fa-exchange-alt" id="iconetroca"></i>
+
+            <span class="inputdata">
+                <input type="date" id="dtida" class="inputbusca">
+                <input type="date" id="dtvolta" class="inputbusca">
+            </span>
+        </div>
+
+        <div id="escolhas">
+            <input type="radio" id="Choice1"
+             name="contact" value="ida1">
+            <label for="contactChoice1">Só ida</label>
+
+            <input type="radio" id="Choice2"
+             name="contact" value="idaevolta2">
+            <label for="contactChoice1">Ida e volta</label>
+
+            <input type="radio" id="Choice3"
+             name="contact" value="multi">
+            <label for="contactChoice1">Mais de um destino</label>
+        </div>
+
+        <div id="botaobsc">
+            <input type="button" id="botaobusca" value="Buscar">
+        </div>
+    </div>
+
+    <div id="corpo-pagina">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+    
+                <div class="slide first">
+                    <img src="img/cachoeiras.jpg" height="610px" width="1100px">
+                </div>
+                <div class="slide">
+                    <img src="img/castelo beto carrero_0.jpg"  height="610px" width="1100px">
+                </div>
+                <div class="slide">
+                    <img src="img/onde-ficar-em-paraty-capa-01.jpg" height="610px" width="1100px">
+                </div>
+                <div class="slide">
+                    <img src="img/arraial-do-cabo-capa2019.jpg" height="610px" width="1100px">
+                </div>
+                <div class="slide">
+                    <img src="img/20-melhores-praias-do-rio-de-janeiro-para-aproveitar-todo-o-estado_zarpo.png" height="410px" width="800px">
+                </div>
+    
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+            </div>
+    
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
+
+    <hr id="linhadiv"><br><br><br>
+
+    <div class="anuncios">
+        <h1>As melhores ofertas para a sua viagem!</h1>
+        <div class="card">
+            <img src="img/Santiago.jpg" height="170px" width="270px">
+            <h3>Voos</h3>
+            <h2>Viaje para Santiago</h3>
+            <p>Diretamente pela Sky Airline</p>
+            <input type="button" id="btncard" value="Inclui mochila ou bolsa" readonly>
+            <hr>
+            <p id="preco">à partir de: </p>
+            <h3 id="valor">R$ 2.159,00</h3>
+        </div>
+
+        <div class="card">
+            <img src="img/Buenos Aires.jpg" height="170px" width="270px">
+            <h3>Voos</h3>
+            <h2>Viaje para Buenos Aires</h3>
+            <p>Diretamente pela Ethiopian Airlines</p>
+            <input type="button" id="btncard" value="Inclui bagagem para despachar" readonly>
+            <hr>
+            <p id="preco">à partir de: </p>
+            <h3 id="valor">R$ 1.674,00</h3>
+        </div>
+
+        <div class="card">
+            <img src="img/Rio de Janeiro.jpg" height="170px" width="270px">
+            <h3>Voos</h3>
+            <h2>Viaje para Rio de Janeiro</h3>
+            <p>Diretamente pela Gol</p>
+            <input type="button" id="btncard" value="Inclui bagagem de mão" readonly>
+            <hr>
+            <p id="preco">à partir de: </p>
+            <h3 id="valor">R$ 250,00</h3>
+        </div>
+
+        <div class="card">
+            <img src="img/Natal RN.jpg" height="170px" width="270px">
+            <h3>Voos</h3>
+            <h2>Viaje para Natal</h3>
+            <p>Diretamente pela Gol</p>
+            <input type="button" id="btncard" value="Inclui bagagem de mão" readonly>
+            <hr>
+            <p id="preco">à partir de: </p>
+            <h3 id="valor">R$ 526,00</h3>
+        </div>
+        
+        <div class="card">
+            <img src="img/Foz do Iguaçu.jpg" height="170px" width="270px">
+            <h3>Voos</h3>
+            <h2>Viaje para Foz do Iguaçu</h3>
+            <p>Diretamente pela Latam</p>
+            <input type="button" id="btncard" value="Inclui mochila ou bolsa" readonly>
+            <hr>
+            <p id="preco">à partir de: </p>
+            <h3 id="valor">R$ 377,90</h3>
+        </div>
+
+        <div class="card">
+            <img src="img/Salvador.jpg" height="170px" width="270px">
+            <h3>Voos</h3>
+            <h2>Viaje para Salvador</h3>
+            <p>Diretamente pela Azul</p>
+            <input type="button" id="btncard" value="Inclui bagagem para despachar" readonly>
+            <hr>
+            <p id="preco">à partir de: </p>
+            <h3 id="valor">R$ 525,90</h3>
+        </div>
+
+        <div class="card">
+            <img src="img/Maceio.jpg" height="170px" width="270px">
+            <h3>Voos</h3>
+            <h2>Viaje para Maceió</h3>
+            <p>Diretamente pela Azul</p>
+            <input type="button" id="btncard" value="Inclui bagagem de mão" readonly>
+            <hr>
+            <p id="preco">à partir de: </p>
+            <h3 id="valor">R$ 739,00</h3>
+        </div>
+
+        <div class="card">
+            <img src="img/Peru.jpg" height="170px" width="270px">
+            <h3>Voos</h3>
+            <h2>Viaje para Peru</h3>
+            <p>Diretamente pela Copa Airlines</p>
+            <input type="button" id="btncard" value="Inclui bagagem de mão" readonly>
+            <hr>
+            <p id="preco">à partir de: </p>
+            <h3 id="valor">R$ 2195,90</h3>
+        </div>
+    </div>
+
+    <div id="rodape">
+        <h3>Inscreva-se para receber ofertas exclusivas</h3>
+        <i class="fas fa-paper-plane" id="iconemail"></i>
+        <input type="text" id="emailinput" placeholder="Insira seu e-mail">
+        <button id="btnnoticia">Quero recebê-las!</button>
+        <p>Você receberá e-mails promocionais da myTravels. Para mais informações, consulte as políticas de privacidade.</p>
+    </div>
+    <hr id="linhadiv">
+    <footer>
+        © Copyright - MyTravels
+    </footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
