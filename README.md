@@ -1,4 +1,4 @@
-![LOGO](https://user-images.githubusercontent.com/81762226/126399740-193be426-56c6-4bec-b301-2720f8d84a27.JPG){ width="800" height="600" style="display: block; margin: 0 auto" }
+![LOGO](https://user-images.githubusercontent.com/81762226/126399740-193be426-56c6-4bec-b301-2720f8d84a27.JPG){style="display: block; margin: 0 auto"}
 
 > Code status: Developing ⚠️
 
