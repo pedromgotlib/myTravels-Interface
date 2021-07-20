@@ -97,7 +97,8 @@
 
 + HTML;
 + CSS;
-+ a little bit of JavaScript.
+
+*The system is still under development, the JavaScript part is still in process.*
 
 <br>
 
