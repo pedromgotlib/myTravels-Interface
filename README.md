@@ -29,6 +29,45 @@
 + Access with Google;
 + Access with E-mail.
 
+### In the passages tab we have, in principle, a filter field:
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/81762226/126400669-9521d60c-ed7c-4354-819c-1799c66f42fe.gif">
+</div>
+
+#### Below we have a slide show and right after some passages:
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/81762226/126400828-218c3782-b02d-4e98-b552-00f2f7b70dbe.JPG">
+</div>
+
+#### And finally we have a registration field for exclusive offers.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/81762226/126400962-bfc9b7a3-346f-4dc7-ad45-3eccece1df82.JPG">
+</div>
+
+### On the accommodations tab we have:
+
++ Search guide;
++ Filter field;
++ Accommodations.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/81762226/126401145-fea6a1ec-6507-4c4b-9447-aa7828fe1747.JPG">
+</div>
+
+#### We have custom filter buttons on the left side.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/81762226/126401248-b33f712d-9fca-4e43-8fa3-9b13ced7dede.gif">
+</div>
+
+### Finally we have the offers tab:
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/81762226/126401323-b0c80d97-d648-4589-857a-c5a2cafc6f78.gif">
+</div>
 
 *The prototype of the system aims to register, and manage the length of stay, the amount to be paid by the car parking user.*
 
