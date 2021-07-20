@@ -1,4 +1,4 @@
-![LOGO](https://user-images.githubusercontent.com/81762226/126399740-193be426-56c6-4bec-b301-2720f8d84a27.JPG)
+<div align="center">![LOGO](https://user-images.githubusercontent.com/81762226/126399740-193be426-56c6-4bec-b301-2720f8d84a27.JPG)</div>
 
 > Code status: Developing ⚠️
 
