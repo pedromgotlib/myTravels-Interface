@@ -1,0 +1,500 @@
+@media screen and (min-width: 769px){
+    @font-face {
+        font-family: keepcalm;
+        src: url(keepcalm-medium-webfont.woff);
+    }
+    
+    @font-face {
+        font-family: nexa-light;
+        src: url(nexa_light-webfont.woff);
+    }
+    
+    @font-face {
+        font-family: nexa-bold;
+        src: url(nexa_bold-webfont.woff);
+    }
+
+    body{
+        height: 2100px;
+    }
+    
+    header{
+        height: 150px;
+        width: 100%;
+        background-color: #F7F7F7;
+        margin: -10px;
+        margin-top: -20px;
+        padding-left: 80px;
+        position: fixed;
+    }
+    
+    #logo{
+        font-family: keepcalm;
+        position: fixed;
+        top: 18px;
+        color: #152f86;
+    }
+    
+    #criar{
+        position: fixed;
+        top: 40px;
+        right: 220px;
+        font-family: nexa-bold;
+        text-decoration: none;
+        color: #EA1D2C;
+        
+    }
+    
+    #pass{
+        position: fixed;
+        top: 43px;
+        left: 385px;
+        font-family: nexa-light;
+        text-decoration: none;
+        color: #EA1D2C;
+    }
+    
+    #hosp{
+        position: fixed;
+        top: 43px;
+        left: 520px;
+        font-family: nexa-light;
+        text-decoration: none;
+        color: #252525;
+    }
+    
+    #paco{
+        position: fixed;
+        top: 43px;
+        left: 670px;
+        font-family: nexa-light;
+        text-decoration: none;
+        color: #252525;
+    }
+    
+    #btn{
+        position: fixed;
+        top: 45px;
+        right: 80px;
+        background-color: #152f86;
+        color: #F7F7F7;
+        height: 45px;
+        width: 95px;
+        font-family: nexa-bold;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    
+    #btn:focus {outline:0;}
+    
+    #btn:hover{
+        background-color: #0e1e55;
+        transition-duration: 0.2s;
+    }
+    
+    #pass:hover, #hosp:hover, #paco:hover{
+        color: #EA1D2C;
+    }
+    
+    #iconelogo{
+        margin-left: -15px;
+        color: #EA1D2C;
+        margin-top: 60px;
+    }
+    
+    #container{
+        height: 200px;
+        width: auto;
+        margin: -8px;
+        padding: 50px;
+        background-color: #F7F7F7;
+        line-height: 250px;
+    }
+    
+    #buscacidade{
+        height: 250px;
+        width: auto;
+    }
+    
+    .inputbusca{
+        height: 40px;
+        width: 240px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 0px 7px 0 rgba(0, 0, 0, 0.01), 0 0px 2px 0 rgba(0, 0, 0, 0.08);
+        font-family: nexa-light;
+        padding-left: 15px;
+        padding-right: 10px;
+        font-size: 15px;
+        margin-left: 33px;
+    }
+    
+    .inputbusca:focus {outline: 0;}
+    
+    .inputdata{
+        margin-top: -210px;
+        margin-left: 270px;
+    }
+    
+    #dtvolta{
+        margin-left: 30px;
+    }
+    
+    input{
+        font-family: nexa-bold;
+        font-size: 15px;
+    }
+    
+    #idaevolta{
+        margin-left: -20px;
+    }
+    
+    #idaplace{
+        margin-left: 70px;
+    }
+    
+    #botaobusca{
+        height: 43px;
+        background-color: #F7F7F7;
+        color: #EA1D2C;
+        width: 180px;
+        font-family: nexa-bold;
+        border: solid 1px #EA1D2C;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-left: 1035px;
+    }
+    
+    #botaobsc{
+        height: 43px;
+        width: 180px;
+        margin-top: -10px;
+    }
+    
+    #botaobusca:focus {outline:0;}
+    
+    #botaobusca:hover{
+        background-color: #EA1D2C;
+        color: #F7F7F7;
+        transition-duration: 0.2s;
+    }
+    
+    #iconetroca{
+        margin-left: -295px;
+        margin-top: 23px;
+    }
+    
+    #escolhas{
+        height: 10px;
+        width: 500px;
+        font-family: nexa-bold;
+        margin-left: 520px;
+        margin-top: -170px;
+        color: #152f86;
+    }
+    
+    #Choice2{
+        margin-left: 40px;
+    }
+    
+    #Choice3{
+        margin-left: 40px;
+    }
+    
+    #corpo-pagina{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .slider{
+        width: 1100px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .slides{
+        width: 500%;
+        height: 500px;
+        display: flex;
+    }
+    
+    .slides input{
+        display: none;
+    }
+    
+    .slide{
+        width: 20%;
+        transition: 2s;
+    }
+    
+    .slide img{
+        width: 1100px;
+        height: 610px;
+    }
+    
+    .navigation-manual{
+        position: absolute;
+        width: 1100px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .manual-btn{
+        border: 2px solid #F7F7F7;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .manual-btn:not(:last-child){
+        margin-right: 40px;
+    }
+    
+    .manual-btn:hover{
+        background: #F7F7F7;
+    }
+    
+    #radio1:checked ~ .first{
+        margin-left: 0;
+    }
+    
+    #radio2:checked ~ .first{
+        margin-left: -20%;
+    }
+    
+    #radio3:checked ~ .first{
+        margin-left: -40%;
+    }
+    
+    #radio4:checked ~ .first{
+        margin-left: -60%;
+    }
+    
+    #radio5:checked ~ .first{
+        margin-left: -80%;
+    }
+    
+    .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 1100px;
+        justify-content: center;
+        margin-top: 460px;
+    }
+    
+    .navigation-auto div{
+        border: 2px solid #F7F7F7;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 1s;
+    }
+    
+    .navigation-auto div:not(:last-child){
+        margin-right: 40px;
+    }
+    
+    #radio1:checked ~ .navigation-auto .auto-btn1{
+        background: #F7F7F7;
+    }
+    
+    #radio2:checked ~ .navigation-auto .auto-btn2{
+        background: #F7F7F7;
+    }
+    
+    #radio3:checked ~ .navigation-auto .auto-btn3{
+        background: #F7F7F7;
+    }
+    
+    #radio4:checked ~ .navigation-auto .auto-btn4{
+        background: #F7F7F7;
+    }
+    
+    #radio5:checked ~ .navigation-auto .auto-btn5{
+        background: #F7F7F7;
+    }
+    
+    .card{
+        text-align: center;
+        font-family: nexa-light;
+        height: 360px;
+        width: 230px;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 43px;
+        margin-bottom: 50px;
+        border: 1px solid rgb(190, 190, 190);
+        padding: 20px;
+        border-radius: 5px;
+        background: #F7F7F7;
+        cursor: pointer;
+        box-shadow: 0 0px 7px 0 rgba(0, 0, 0, 0.2), 0 0px 2px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .card p{
+        font-size: 13px;
+    }
+    
+    .card h2{
+        font-family: nexa-bold;
+        font-size: 18px;
+        margin-top: -14px;
+    }
+    
+    .card h3{
+        margin-top: 25px;
+        font-family: nexa-light;
+        font-size: 22px;
+        color: #EA1D2C;
+    }
+    
+    #btncard{
+        background-color: #ffffff;
+        color: #152f86;
+        height: 40px;
+        width: 230px;
+        font-family: nexa-light;
+        font-size: 13px;
+        border: solid 1px #152f86;
+        border-radius: 7px;
+        margin-top: 2px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    #btncard:focus {outline:0;}
+    
+    .card img{
+        margin: -20px;
+        border-radius: 3px 3px 0px 0px;
+    }
+    
+    hr{
+        border: 0;
+        border-bottom: 1px solid rgb(190, 190, 190);
+        margin-top: 20px;
+        margin-left: -20px;
+        width: 270px;
+    }
+    
+    #preco{
+        margin-top: -4px;
+        text-align: left;
+        color: #EA1D2C;
+    }
+    
+    #valor{
+        margin-top: -15px;
+        font-family: nexa-bold;
+        color: #152f86;
+    }
+    
+    .card:hover{
+        box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3), 0 0px 2px 0 rgba(0, 0, 0, 0.3);
+        transition-duration: 0.2s;
+    }
+    
+    .cartao:hover{
+        box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3), 0 0px 2px 0 rgba(0, 0, 0, 0.3);
+        transition-duration: 0.2s;
+    }
+
+    footer{
+        font-family: nexa-light;
+        font-style: italic;
+        background-color: #F7F7F7;
+        color: #929292;
+        height: 80px;
+        text-align: center;
+        line-height: 60px;
+        margin: -8px;
+        margin-top: 25px;
+    }
+
+    #rodape{
+        background-color: #F7F7F7;
+        height: 200px;
+        margin: -8px;
+        margin-bottom: -50px;
+        padding: 20px;
+        padding-top: 40px;
+        text-align: center;
+        font-family: nexa-bold;
+    }
+
+    #rodape p{
+        font-family: nexa-light;
+        font-size: 12px;
+    }
+
+    #iconemail{ 
+        position: absolute;
+        left: 433px;
+        top: 2122px;
+        color: #8a8a8a;
+    }
+
+    #emailinput{
+        height: 30px;
+        width: 290px;
+        border-radius: 5px;
+        border: solid 1px rgb(190, 190, 190);
+        padding-left: 30px;
+    }
+
+    #emailinput:focus{
+        border: solid 1px #152f86;
+        transition: 0.6s;
+    }
+
+    #emailinput:focus {outline:0;}
+
+    #btnnoticia{
+        height: 36px;
+        width: 150px;
+        font-family: nexa-light;
+        margin-left: 20px;
+        border-radius: 20px;
+        border: solid 1px #EA1D2C;
+        color: #EA1D2C;
+        background-color: #F7F7F7;
+        cursor: pointer;
+    }
+
+    #btnnoticia:hover{
+        background-color: #EA1D2C;
+        color: #F7F7F7;
+        transition-duration: 0.2s;
+    }
+
+    #btnnoticia:focus {outline:0;}
+
+    #rodape input{
+        font-family: nexa-light;
+        font-size: 13px;
+        font-style: italic;
+    }
+
+    #linhadiv{
+        border: 0;
+        border-bottom: 1px solid rgb(190, 190, 190);
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .anuncios h1{
+        font-family: nexa-light;
+        margin-left: 20px;
+        color: #152f86;
+    }
+}
+

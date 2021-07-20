@@ -1,0 +1,377 @@
+@font-face {
+    font-family: keepcalm;
+    src: url(keepcalm-medium-webfont.woff);
+}
+
+@font-face {
+    font-family: nexa-light;
+    src: url(nexa_light-webfont.woff);
+}
+
+@font-face {
+    font-family: nexa-bold;
+    src: url(nexa_bold-webfont.woff);
+}
+
+body{
+    width: 1267px;
+    background-color: #F7F7F7;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin: -10px;
+    margin-top: -20px;
+    padding-left: 80px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+#logo{
+    font-family: keepcalm;
+    margin-top: -19px;
+    color: #152f86;
+}
+
+#iconelogo{
+    margin-left: -15px;
+    color: #EA1D2C;
+    margin-top: 52px;
+}
+
+#criar{
+    position: absolute;
+    top: 40px;
+    left: 1045px;
+    font-family: nexa-bold;
+    text-decoration: none;
+    color: #EA1D2C;
+    
+}
+
+#pass{
+    position: absolute;
+    top: 43px;
+    left: 385px;
+    font-family: nexa-light;
+    text-decoration: none;
+    color: #252525;
+}
+
+#hosp{
+    position: absolute;
+    top: 43px;
+    left: 520px;
+    font-family: nexa-light;
+    text-decoration: none;
+    color: #252525;
+}
+
+#paco{
+    position: absolute;
+    top: 43px;
+    left: 670px;
+    font-family: nexa-light;
+    text-decoration: none;
+    color: #EA1D2C;
+}
+
+#btn{
+    position: absolute;
+    top: 45px;
+    left: 1170px;
+    background-color: #152f86;
+    color: #F7F7F7;
+    height: 45px;
+    width: 95px;
+    font-family: nexa-bold;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#btn:focus {outline:0;}
+
+#btn:hover{
+    background-color: #0e1e55;
+    transition-duration: 0.2s;
+}
+
+#pass:hover, #hosp:hover, #paco:hover{
+    color: #EA1D2C;
+}
+
+#corpo-pagina{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+#corpo-pagina h1{
+    font-family: nexa-light;
+    font-size: 35px;
+    text-align: justify;
+}
+
+#corpo-pagina p{
+    font-family: nexa-light;
+    color: rgb(145, 145, 145);
+    font-size: 16px;
+    text-align: justify;
+    margin-top: -10px;
+}
+
+.card-ofertas{
+    display: inline-block;
+    font-family: nexa-light;
+    position: relative;
+    left: 315px;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+    padding: 20px;
+    height: 470px;
+    width: 270px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 0px 7px 0 rgba(0, 0, 0, 0.01), 0 0px 2px 0 rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+.card-ofertas:hover{
+    box-shadow: 0 0px 7px 0 rgba(0, 0, 0, 0.2), 0 0px 2px 0 rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+}
+
+.card-ofertas img{
+    height: 200px;
+    width: 310px;
+    display: block;
+    border-radius: 9px 9px 0px 0px;
+    margin: -20px;
+}
+
+.conteudo h2{
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.conteudo span{
+    margin-left: 50px;
+    position: relative;
+    top: -52px;
+    color: rgb(240, 164, 0);
+    font-size: 22px;
+}
+
+.conteudo p{
+    font-size: 17px;
+    color: #8b8b8b;
+    position: relative;
+    top: -20px;
+}
+
+.conteudo h3{
+    height: 20px;
+    width: 27px;
+    padding: 5px;
+    background-color: rgb(11, 167, 141);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+#linhadiv{
+    border: 0;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    margin-top: 50px;
+    margin-left: -20px;
+    width: 310px;
+}
+
+#pessoa{
+    position: relative;
+    top: 10px;
+}
+
+.conteudo h4{
+    position: relative;
+    top: -10px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.conteudo s{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #EA1D2C;
+}
+
+#texto-pacotes{
+    display: inline-block;
+    width: 250px;
+    position: absolute;
+    top: 420px;
+    left: 45px;
+}
+
+#texto-pacotes p{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+#texto-pacotes h1{
+    font-size: 28px;
+}
+
+#texto-pacotes button{
+    height: 43px;
+    background-color: #F7F7F7;
+    color: #152f86;
+    width: 250px;
+    font-family: nexa-light;
+    font-size: 20px;
+    border: solid 1px #152f86;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#texto-pacotes button:focus {outline:0;}
+
+#texto-pacotes button:hover{
+    background-color: #152f86;
+    color: #F7F7F7;
+    transition-duration: 0.4s;
+}
+
+#texto-voos{
+    display: inline-block;
+    width: 250px;
+    position: absolute;
+    top: 1070px;
+    left: 45px;
+}
+
+#texto-voos p{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+#texto-voos h1{
+    font-size: 28px;
+}
+
+#texto-voos button{
+    height: 43px;
+    background-color: #F7F7F7;
+    color: #152f86;
+    width: 250px;
+    font-family: nexa-light;
+    font-size: 20px;
+    border: solid 1px #152f86;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#texto-voos button:focus {outline:0;}
+
+#texto-voos button:hover{
+    background-color: #152f86;
+    color: #F7F7F7;
+    transition-duration: 0.4s;
+}
+
+footer{
+    font-family: nexa-light;
+    font-style: italic;
+    background-color: #F7F7F7;
+    color: #929292;
+    height: 80px;
+    text-align: center;
+    line-height: 60px;
+    margin: -8px;
+    margin-top: 25px;
+}
+
+#rodape{
+    background-color: #F7F7F7;
+    height: 200px;
+    margin: -8px;
+    margin-bottom: -50px;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: nexa-bold;
+    margin-left: -5px;
+    width: 1300px;
+    box-shadow: 0 0px 7px 0 rgba(0, 0, 0, 0.01), 0 0px 2px 0 rgba(0, 0, 0, 0.08);
+}
+
+#rodape p{
+    font-family: nexa-light;
+    font-size: 12px;
+}
+
+#iconemail{ 
+    position: absolute;
+    left: 433px;
+    top: 1652px;
+    color: #8a8a8a;
+}
+
+#emailinput{
+    height: 30px;
+    width: 290px;
+    border-radius: 5px;
+    border: solid 1px rgb(190, 190, 190);
+    padding-left: 30px;
+}
+
+#emailinput:focus{
+    border: solid 1px #152f86;
+    transition: 0.6s;
+}
+
+#emailinput:focus {outline:0;}
+
+#btnnoticia{
+    height: 36px;
+    width: 150px;
+    font-family: nexa-light;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: solid 1px #EA1D2C;
+    color: #EA1D2C;
+    background-color: #F7F7F7;
+    cursor: pointer;
+}
+
+#btnnoticia:hover{
+    background-color: #EA1D2C;
+    color: #F7F7F7;
+    transition-duration: 0.2s;
+}
+
+#btnnoticia:focus {outline:0;}
+
+#rodape input{
+    font-family: nexa-light;
+    font-size: 13px;
+    font-style: italic;
+}
+
+#linhadivfooter{
+    border: 0;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    margin-top: 20px;
+    margin-left: 0;
+    width: 1330px;
+}

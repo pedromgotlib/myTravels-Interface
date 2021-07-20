@@ -1,0 +1,312 @@
+@font-face {
+    font-family: keepcalm;
+    src: url(keepcalm-medium-webfont.woff);
+}
+
+@font-face {
+    font-family: nexa-light;
+    src: url(nexa_light-webfont.woff);
+}
+
+@font-face {
+    font-family: nexa-bold;
+    src: url(nexa_bold-webfont.woff);
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    float: left;
+    width: 100%;
+    height: 150px;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin: -10px;
+    margin-top: -20px;
+    padding-left: 80px;
+    position: fixed;
+    
+}
+
+#logo{
+    font-family: keepcalm;
+    position: fixed;
+    top: 18px;
+    color: #152f86;
+}
+
+#criar{
+    position: fixed;
+    top: 40px;
+    left: 1045px;
+    font-family: nexa-bold;
+    text-decoration: none;
+    color: #EA1D2C;
+    
+}
+
+#pass{
+    position: fixed;
+    top: 43px;
+    left: 385px;
+    font-family: nexa-light;
+    text-decoration: none;
+    color: #252525;
+}
+
+#hosp{
+    position: fixed;
+    top: 43px;
+    left: 520px;
+    font-family: nexa-light;
+    text-decoration: none;
+    color: #252525;
+}
+
+#paco{
+    position: fixed;
+    top: 43px;
+    left: 670px;
+    font-family: nexa-light;
+    text-decoration: none;
+    color: #252525;
+}
+
+#btn{
+    position: fixed;
+    top: 45px;
+    left: 1170px;
+    background-color: #152f86;
+    color: #F7F7F7;
+    height: 45px;
+    width: 95px;
+    font-family: nexa-bold;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#btn:focus {outline:0;}
+
+#btn:hover{
+    background-color: #0e1e55;
+    transition-duration: 0.2s;
+}
+
+#container{
+    float: left;
+    height: 380px;
+    padding: 50px;
+    margin: -8px;
+    background-color: #F7F7F7;
+    line-height: 250px;
+}
+
+#container h1{
+    float: left;
+    width: 100%;
+    font-family: nexa-bold;
+    text-align: center;
+    font-size: 35px;
+}
+
+#container h3{
+    float: left;
+    width: 100%;
+    font-family: nexa-light;
+    text-align: center;
+    margin-top: -18%;
+    color: rgb(145, 145, 145);
+    font-size: 16px;
+}
+
+::selection {
+    height: 20px;
+    color: #F7F7F7;
+    background: #C2121F;
+}
+
+::selection:focus{
+    max-height: 20px;
+}
+
+.busca{
+    float: left;
+    margin-left: 280px;
+    margin-top: -200px;
+}
+
+#busca{
+    height: 40px;
+    width: 500px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0px 7px 0 rgba(0, 0, 0, 0.01), 0 0px 2px 0 rgba(0, 0, 0, 0.08);
+    padding-left: 45px;
+    font-size: 15px;
+    font-family: nexa-light;;
+}
+
+::placeholder{
+    font-family: nexa-light;
+}
+
+#busca:focus {outline:0;}
+
+#iconebusca{
+    margin-left: -532px;
+    color: #EA1D2C;
+    position: relative;
+    top: 2px;
+}
+
+#botaobusca{
+    height: 43px;
+    background-color: #F7F7F7;
+    color: #152f86;
+    width: 110px;
+    font-family: nexa-bold;
+    border: solid 1px #152f86;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 530px;
+    position: relative;
+    top: -1px;
+}
+
+#botaobusca:focus {outline:0;}
+
+#botaobusca:hover{
+    background-color: #152f86;
+    color: #F7F7F7;
+}
+
+#pass:hover, #hosp:hover, #paco:hover{
+    color: #EA1D2C;
+}
+
+#iconelogo{
+    margin-left: -15px;
+    color: #EA1D2C;
+    margin-top: 52px;
+}
+
+#fotos img{
+    float: left;
+    width: 100%;
+    width: 350px;
+    height: 210px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -50px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.1), 0 0px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+#fotos{
+    float: left;
+    width: 100%;
+    margin-left: 55px;
+}
+
+#legenda{
+    float: left;
+    width: 100%;
+    font-family: nexa-light;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -100px;
+    margin-top: -120px;
+    color: rgb(145, 145, 145);
+}
+
+#cr{
+    margin-left: 180px;
+}
+
+#im{
+    margin-left: 215px;
+}
+
+#eg{
+    margin-left: 205px;
+}
+
+@media screen and (max-width: 600px){
+    header{
+        float: left;
+        width: 100%;
+    }
+
+    #logo{
+        font-family: keepcalm;
+        position: fixed;
+        top: 18px;
+        left: 60px;
+        color: #152f86;
+    }
+
+    #iconelogo{
+        margin-left: -30px;
+        color: #EA1D2C;
+        margin-top: 50px;
+    }
+
+    #btn{
+        position: fixed;
+        top: 135px;
+        left: 20px;
+        background-color: #EA1D2C;
+        color: #F7F7F7;
+        height: 45px;
+        width: 320px;
+        font-family: nexa-bold;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+
+    #criar{
+        display: none;
+    }
+
+    #container{
+        float: left;
+        height: 380px;
+        width: 100%;
+        margin: -8px;
+        padding: 50px;
+        background-color: #F7F7F7;
+        line-height: 250px;
+    }
+
+    #pass{
+        position: fixed;
+        top: 200px;
+        left: 85px;
+        font-family: nexa-light;
+        text-decoration: none;
+        color: #252525;
+    }
+    
+    #hosp{
+        position: fixed;
+        top: 200px;
+        left: 120px;
+        font-family: nexa-light;
+        text-decoration: none;
+        color: #252525;
+    }
+    
+    #paco{
+        position: fixed;
+        top: 200px;
+        left: 170px;
+        font-family: nexa-light;
+        text-decoration: none;
+        color: #252525;
+    }
+
+}
